@@ -1,6 +1,6 @@
 ## Welcome to readme of Telegram bot
 
-- To access the bot use `t.me/knock_the_bot`
+- To access the bot use `t.me/TeleChatter_bot.`
 
 # Basic setup
 

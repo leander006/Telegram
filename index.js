@@ -88,6 +88,10 @@ nlpManager.addDocument(
 );
 nlpManager.addDocument("en", "okay", "bot.general");
 nlpManager.addAnswer("en", "bot.general", "Yeah!! So how are you?");
+bot.start((ctx) => {
+  // This code will execute when a user clicks on the bot's start link
+  ctx.reply("Welcome to YourBot! How can I assist you today?");
+});
 
 bot.hears("Bot", (ctx) => ctx.reply("t.me/knock_the_bot"));
 
