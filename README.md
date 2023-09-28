@@ -23,3 +23,18 @@
   `nlpManager.addAnswer("en", "bot.name", "My name is YourBot.");`
 
 - So similarly you can add more questions and answer to it
+
+# This are some basic question that can be asked
+
+- Who created you?
+- What can you do?
+- Tell me a joke.
+- What's the weather like today?
+- What's your favorite color?
+- How are you?
+- Where are you from?
+- Do you like music?
+- Recommend me some songs
+- What's your purpose?
+- Tell me something interesting.
+- okay
