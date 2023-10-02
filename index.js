@@ -105,6 +105,7 @@ bot.on("text", async (ctx) => {
 
   // Handle different classifications and generate responses accordingly
   if (classification.intent) {
+    console.log("command", classification.intent);
     switch (classification.intent) {
       case "bot.feelings":
         ctx.reply(classification.answer);
@@ -155,7 +156,6 @@ bot.on("text", async (ctx) => {
   }
 });
 
-console.log("command", classification.intent);
 console.log("bot is running");
 nlpManager.train();
 bot.launch();
