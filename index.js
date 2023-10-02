@@ -155,6 +155,7 @@ bot.on("text", async (ctx) => {
   }
 });
 
+console.log("command", classification.intent);
 console.log("bot is running");
 nlpManager.train();
 bot.launch();
